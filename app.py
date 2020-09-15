@@ -24,7 +24,7 @@ def wordMatch(word):
             if len(word)==len(secWord):
                 List.append(secWord)
                 array[start].append(secWord)
-        start=start+1
+        start+=1
 
     return array
 
